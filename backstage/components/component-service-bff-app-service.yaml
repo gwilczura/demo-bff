@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+kind: Component
+metadata:
+  name: component-service-bff-app-service
+  description: Azure App Service providing aggregated BFF api functionality
+spec:
+  type: service
+  lifecycle: production
+  owner: dolphins
+  system: system-bff
+  providesApis:
+    - api-bff
+  consumesApis:
+    - api-products

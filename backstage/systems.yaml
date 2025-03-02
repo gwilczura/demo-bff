@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: loc-bff-systems
+  description: A collection of all bff systems
+spec:
+  targets:
+    - ./systems/system-bff.yaml

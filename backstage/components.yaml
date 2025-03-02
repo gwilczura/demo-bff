@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: loc-bff-components
+  description: A collection of all BFF components
+spec:
+  targets:
+    - ./components/component-service-bff-app-service.yaml

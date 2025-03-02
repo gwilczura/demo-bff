@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+# https://backstage.io/docs/features/software-catalog/descriptor-format/#kind-api
+kind: API
+metadata:
+  name: api-bff
+  description: This api exposes functionality to Front-End application
+spec:
+  type: openapi
+  lifecycle: production
+  owner: dolphins
+  system: system-bff
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: BFF API
+      license:
+        name: MIT

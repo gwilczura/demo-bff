@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: loc-bff
+  description: A core file linking to Backend For Frontend
+spec:
+  targets:
+    - ./apis.yaml
+    - ./systems.yaml
+    - ./components.yaml
+    # - ./domains.yaml
+    # - ./resources.yaml
