@@ -9,4 +9,4 @@ spec:
     - ./systems.yaml
     - ./components.yaml
     # - ./domains.yaml
-    # - ./resources.yaml
+    - ./resources.yaml

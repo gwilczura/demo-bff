@@ -5,4 +5,4 @@ metadata:
   description: A collection of all BFF components
 spec:
   targets:
-    - ./components/component-service-bff-app-service.yaml
+    - ./components/component-appservice-bff.yaml

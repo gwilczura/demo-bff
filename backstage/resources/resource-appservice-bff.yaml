@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: resource-appservice-bff
+  description: AppService hosting Backend for Frontend Service
+spec:
+  type: appservice
+  owner: dolphins
+  system: system-bff

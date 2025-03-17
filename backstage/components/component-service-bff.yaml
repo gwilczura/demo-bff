@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
 kind: Component
 metadata:
-  name: component-service-bff-app-service
+  name: component-service-bff
   description: Azure App Service providing aggregated BFF api functionality
 spec:
   type: service
@@ -13,3 +13,5 @@ spec:
     - api-bff
   consumesApis:
     - api-products
+  dependsOn:
+    - resource:resource-appservice-bff
